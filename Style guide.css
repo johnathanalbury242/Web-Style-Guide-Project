@@ -1,0 +1,249 @@
+body {
+    margin: 20px auto;
+    max-width: 85%;
+    font-family: helvetica, arial;
+    background-color: #10aedb;
+    color: white;
+}
+
+#title {
+    width: 70%;
+    float: left;
+}
+
+.nav {
+    float: right;
+}
+
+.clear{
+    clear: both;
+}
+
+.nav a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+.nav li{
+    list-style-type: none;
+    display: inline;
+    width: 50px;
+    margin: 0px 10px;
+    padding: 5px 5px;
+    
+}
+
+.nav a:hover {
+    text-decoration: underline;
+   
+    
+}
+
+.container {
+    border: dashed 2px #fff;
+    margin: 10px auto;
+    width: 100%;
+    padding: 25px;
+}
+
+.color-box01 {
+    background-color: #000000;
+    color: white;
+}
+
+.color-box02 {
+    background-color: #00778b;
+    color: white;
+}
+
+.color-box03 {
+    background-color: #FFC72C;
+    color: white;
+}
+
+.color-box04 {
+    background-color: #4BDFF9;
+    color: white;
+}
+
+.color-box05 {
+    background-color: #90EE90;
+    color: white;
+}
+
+.color-box06 {
+    background-color: #F7C12A;
+    color: white;
+}
+
+.colorbox {
+    display: inline-block;
+    width: 32%;
+    text-align: center;
+    margin: 10px auto;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.bold-font {
+    font-weight: bold;
+}
+
+.italic-font {
+    font-style: italic;
+}
+
+.Roboto-Flex h3{
+    font-family: 'Roboto flex';
+}
+
+.Roboto-Flex .main-font{
+    font-family: 'Roboto flex';
+}
+
+.Roboto-Flex .italic-font{
+    font-family: 'Roboto flex';
+}
+
+.Roboto-Flex .main-font{
+    font-family: 'Roboto flex';
+}
+
+.Oswald h3{
+    font-family: 'Oswald';
+}
+
+.Oswald .main-font{
+    font-family: 'Oswald';
+}
+
+.Oswald .bold-font{
+    font-family: 'Oswald';
+}
+
+.Oswald .italic-font{
+    font-family: 'Oswald';
+}
+
+.PT-Serif h3{
+    font-family: 'PT serif';
+}
+
+.PT-Serif .main-font{
+    font-family: 'PT serif';
+}
+
+.PT-Serif .bold-font{
+    font-family: 'PT serif';
+}
+
+.PT-Serif .italic-font{
+    font-family: 'PT serif';
+}
+
+.EB-Garamond h3{
+    font-family: 'EB Garamond';
+}
+
+.EB-Garamond .main-font{
+    font-family: 'EB Garamond';
+}
+
+.EB-Garamond .bold-font{
+    font-family: 'EB Garamond';
+}
+
+.EB-Garamond .italic-font{
+    font-family: 'EB Garamond';
+}
+
+.text-style {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.text-style h1{
+    font-family: 'Oswald';
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.text-style h2 {
+    font-weight: 500px;
+    font-size: 18px;
+    font-family: 'Roboto Flex';
+}
+
+.text-style p {
+    font-weight: 400px;
+    font-size: 14px;
+    font-family: 'EB Garamond', 'PT Serif';
+}
+
+.button-style {
+    width: 100px;
+    display: inline;
+}
+
+button {
+    height: 40px;
+    width: 100px;
+    margin: 4%;
+    font-weight: bold;
+}
+
+#button1 {
+    cursor: pointer;
+    background-color: #F7C12A;
+    color: white;
+    border-radius: 10px;
+    
+}
+
+#button2 {
+    cursor: pointer;
+    background-color: #F7C12A;
+    color: white;
+    border-radius: 10px;
+    
+}
+
+#button3 {
+    cursor: pointer;
+    background-color: #F7C12A;
+    color: white;
+    border-radius: 10px;
+    
+}
+
+
+
+#button2:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    background-color: #4BDFF9;
+    font-size: 15px;
+    transition: font-size .3s;
+}
+
+#button3:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    background-color: #4BDFF9;
+    font-size: 15px;
+    transition: font-size .3s;
+}
+
+#button3:active {
+    cursor: pointer;
+    margin-top: 5px;
+    text-decoration: none;
+    background-color: #90EE90;
+    color: #fff;
+    font-size: 20px;
+    transition: font-size .1s;
+    transition: color .5s;
+}
